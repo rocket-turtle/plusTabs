@@ -2,6 +2,7 @@
  * plusTabs version 1.0
  *
  * Author: Jason Day @iamjasonday
+ * GIT: https://github.com/rocket-turtle/plusTabs
  *
  * (c) 2012, Jason Day
  *
@@ -122,7 +123,7 @@
 
                 $allTabs.mouseleave(function() {
                     clearTimeout(timeout);
-                    var $this = $(this)
+                    var $this = $(this);
                     timeout = setTimeout(function() {
                         $this.slideUp()
                     }, 1000)

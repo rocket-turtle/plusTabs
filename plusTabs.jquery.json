@@ -1,7 +1,7 @@
 {
   "name": "plusTabs",
   "title": "jQuery plusTabs",
-  "description": "plugin to interact with jQuery UI tabs when there are too many tabs.",
+  "description": "plugin to interact with jQuery UI tabs when there are too many tabs. Forked from Jason Day's version.",
   "keywords": [
     "tabs",
     "jquery-ui"
@@ -13,15 +13,14 @@
   },
   "maintainers": [
     {
-      "name": "Jason Day",
-      "email": "movemaine@gmail.com",
-      "url": "https://github.com/jasonday/"
+      "name": "Jonas Schöler",
+      "url": "https://github.com/rocket-turtle/plusTabs"
     }
   ],
   "licenses": [
     {
       "type": "MIT and GPL",
-      "url": "https://github.com/jasonday/plusTabs"
+      "url": "https://github.com/rocket-turtle/plusTabs"
     }
   ],
   "bugs": "https://github.com/jasonday/plusTabs/issues",
