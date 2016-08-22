@@ -1,5 +1,5 @@
 /*
- * plusTabs version 1.0
+ * plusTabs version 2.0
  *
  * Author: Jason Day @iamjasonday
  * GIT: https://github.com/rocket-turtle/plusTabs
@@ -8,7 +8,7 @@
  *
  * Dual licensed under the MIT and GPL licenses
  *
- * Dependencies: jQuery v1.6+, jQuery UI 1.8+
+ * Dependencies: jQuery v1.9+, jQuery UI 1.10+
  *
  * Description:
  * plusTabs extends jQuery UI tabs to include a dropdown for when tabs break to the next line
@@ -92,7 +92,7 @@
                         //stop hash to behavior
                         event.preventDefault();
                         // mimic tab select
-                        $plusTabs.tabs('select', $(this).index());
+                        $plusTabs.tabs('option', 'active', $(this).index());
                         // show active tab on selection
                         showActiveTab();
                         //hide "see more tabs"
